@@ -80,11 +80,12 @@ if __name__ == "__main__":
         # In the next step, this would be connected to the ChatGPT API
     else:
         print("❌ No known ingredients detected.")
-Use Cases (User Journey)
+
+## Use Cases (User Journey)
 The Student: End of the month, budget is tight. A photo of the fridge -> The app suggests "Pasta with leftover veggie sauce."
 The Family: Parents want to teach children not to waste food. The app turns it into a game ("What can we rescue today?").
 The Hobby Cook: Looks for inspiration for unusual combinations based on random finds.
-Challenges & Limitations
+## Challenges & Limitations
 Hidden Objects: The camera cannot see what is inside an opaque Tupperware container.
 Food Condition: The AI detects a banana, but it does not know (yet) if it is fresh or rotten.
 Spices & Basics: The app must assume that basics like salt, pepper, or oil are available, as they are often stored in cupboards and not visible in the fridge photo.
@@ -98,7 +99,7 @@ Barcode Scanner: Supplement image recognition with barcode scanning for precise 
 Profile Settings: Filters for "I am Vegan" or "I hate Cilantro."
 
 Shopping List: Automatically add missing items for the perfect recipe to a list.
-Future Vision & Perspectives
+## Future Vision & Perspectives
 This project is designed as the foundation for a comprehensive Smart Nutrition Ecosystem. The journey goes far beyond a simple app:
 🏠 Smart Kitchen Integration (IoT):
 Instead of taking photos manually, we integrate directly into Smart Fridges with internal cameras.
@@ -110,7 +111,7 @@ If weight plateaus, the AI automatically adjusts recipe suggestions (e.g., reduc
 🎯 The Holistic Nutrition Assistant:
 An AI Chat Interface (Voice & Text) where users define their goals in natural language: "I want to build muscle but I'm lactose intolerant" or "I want to lose 5kg by summer."
 The AI plans not just single meals, but creates entire weekly schedules based on current stock and physical goals.
-Acknowledgments
+## Acknowledgments
 This project stands on the shoulders of open-source giants:
 Ultralytics YOLOv8: For the incredible Object Detection framework. GitHub
 COCO Dataset: For the training data used in object detection.
