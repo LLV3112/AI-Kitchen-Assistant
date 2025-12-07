@@ -80,7 +80,7 @@ if __name__ == "__main__":
         # In the next step, this would be connected to the ChatGPT API
     else:
         print("❌ No known ingredients detected.")
-
+```
 ## Use Cases (User Journey)
 The Student: End of the month, budget is tight. A photo of the fridge -> The app suggests "Pasta with leftover veggie sauce."
 The Family: Parents want to teach children not to waste food. The app turns it into a game ("What can we rescue today?").
